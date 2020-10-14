@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CT.TcyAppAdmLog.Constant\CT.TcyAppAdmLog.Constant.csproj" />
+    <ProjectReference Include="..\CT.TcyAppAdmLog.Framework\CT.TcyAppAdmLog.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

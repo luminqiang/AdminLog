@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CT.TcyAppAdmLog.ApplicationContract\CT.TcyAppAdmLog.ApplicationContract.csproj" />
+    <ProjectReference Include="..\CT.TcyAppAdmLog.Config\CT.TcyAppAdmLog.Config.csproj" />
+    <ProjectReference Include="..\CT.TcyAppAdmLog.Framework\CT.TcyAppAdmLog.Framework.csproj" />
+    <ProjectReference Include="..\CT.TcyAppAdmLog.ServiceContract\CT.TcyAppAdmLog.ServiceContract.csproj" />
+    <ProjectReference Include="..\CT.TcyAppAdmLog.Service\CT.TcyAppAdmLog.Service.csproj" />
+  </ItemGroup>
+
+</Project>

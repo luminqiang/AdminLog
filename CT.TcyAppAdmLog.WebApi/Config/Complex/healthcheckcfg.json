@@ -1,0 +1,20 @@
+{
+  "ReportUrl": "http://ctservicehealthapi.tcy365.org:1505/api/service/check",
+  "SecurityCode": "43t89jsd9t8256sgrgfdgert",
+  "ServiceCode": "HappyCoinApi",
+  "Env": "dev",
+  "HealthCheckItemList": [
+    {
+      "Name": "test",
+      "HandleTypeName": "ctservicehealth.mysql.MySqlCheck",
+      "InputValue": "Database=zipkin;Data Source=192.168.101.47;User Id=root;Password=root;pooling=false;CharSet=utf8;port=3306",
+      "IsIgnore": false
+    },
+    {
+      "Name": "test1",
+      "HandleTypeName": "ctservicehealth.sqlserver.SqlServerCheck",
+      "InputValue": "connectionstringkey=CtHappyCoinBalanceDetailDB",
+      "IsIgnore": true
+    }
+  ]
+}
